@@ -34,6 +34,7 @@ public class PlayerController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space))
         {
             //Lauch a projectile  from player 
+            Instantiate(projectlePrefab, transform.position, projectlePrefab.transform.rotation);
         }
     }
 }
